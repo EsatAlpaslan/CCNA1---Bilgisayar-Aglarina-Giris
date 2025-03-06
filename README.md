@@ -1,1 +1,0 @@
-# CCNA1---Bilgisayar-Aglarina-Giris
