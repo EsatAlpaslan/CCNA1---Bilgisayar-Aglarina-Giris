@@ -24,7 +24,7 @@ Peer to Peer dezavantajları;
 
 
 
-Uç Cihazlar(End Devices)(Host):
+                                    Uç Cihazlar(End Devices)(Host)
 
 *Hizmet alan ya da hizmet veren cihazlara denir
 *Uç cihazlar (Ip üzerinden iletişim yapan cihazlar)
@@ -38,19 +38,142 @@ NOT:Bilgisayar haberleşmesinde kullanılan uç cihazlardan biri de "Ağ Arayüz
 *Bilgisayar sadece kablolu bağlanabiliyorsa 1 NIC kart vardır.Laptop gibi hem kablolu hem kablosuz bağlantısı varsa 2 tane NIC kart vardır.
 
 
-Ara Ağ Cihazları:
+                                             Ara Ağ Cihazları
 *Amaçları veriyi bir yerden alıp bir yere taşımaktır
 *Hizmet vermez;gelen paketi alır ve onu ulaştırır
 *Örn;mektubu yollamak için postaneyi kullanmak
 
 Ağ erişim cihazları;
 *Anahtarlar(Switch)
-*Kablosuz er
+*Kablosuz erişim noktaları(Access Point)
+*Yönlendirici(Routher)
+*Güvenlik duvarları(Firewall)
+
+
+
+
+Anahtarlar(Switch)
+***
+*Aynı lokasyonda bir sürü cihazı ağa dahil etmek amacındadır.
+*Bağlanan bu cihazlarla bir network oluşturmuş oluruz.(LAN(Local Area Network))
+
+
+
+
+Kablosuz erişim noktaları(Access Point)
+*
+*Wireless(kablosuz bağlanmamızı sağlayan bir alettir.
+*Bu da switche bağlanır.
+
+
+
+Ağlar Arası Cihazlar:Yönlendiriciler(Routher)
+***
+*Routher olmazsa internet olmazdı
+*Networkleri birbirine bağlar. 
+
+
+Güvenlik Duvarı(Firewall)
+**
+*Aslında güvenlik özellikleri arttırılmış bir routerdir
+*Ek olarak dışarı networkten gelen senin izin vermediğin networkü çöpe atar,izin verdiğini alır
+
+
+
+NOT:Adsl dediğimiz cihaz aslında router,switch ve accsess pointin birleştirilip gömülmüş halidir
+
+
+
+
+                                      Ağ Medyası(Ağ İletim Ortamı)
+                                  
+*Cihazlar arası verinin iletildiği ortama "Medya" diyoruz.(kablolar)
+
+
+Bakır Kablolar:
+*Elektriksel iletim sağlar
+*UTP Kablo örnek verilebilir
+
+
+Fiber Optik Kablolar:
+*Gözle görülmeyen ışık sinyali ile iletim sağlanır
+*Single Mod Fiber ve Multi Mode Fiber örnek olarak verilebilir
+*Denizlerin altı fiber kablolar ile doludur.
+
+
+Kablosuz iletim:
+*Elektromanyetik dalgalar ile iletim sağlanır
+
+
+
+                                       Ağ Temsilleri
+
+Son Cihazlar:Laptop,Desktop Computer,Printer...
+Ara Cihazlar:LAN Switch,Router,Accsess Point,Firewall,Multilayer Switch,Wireless Router...
+Ağ Medyası(Ağ İletim Ortamı): Wireless Media, LAN Media, WAN Media
+                                                                              
+Multilayer Switch:Güçlü bir switch ile routerin gömülü birleştirilmiş biçimidir.Daha çok şirketlerde kullanılır
 
 
 
 
 
+                                        Yerel Alan Ağları(LAN)
+
+*Sınırlı bir alanda uç cihazları birbirine bağlar
+*Tek bir kuruluş veya kişi tarafından yönetilir
+*LAN içi haberleşmede yüksek hızlı bant genişliği sağlar
+
+LAN Teknolojileri: Ethernet(IEEE 802.3)
+                   Kablosuz LAN(IEEE 802.3)
 
 
 
+
+                                 Geniş Alan Ağları(WAN-Wide Area Network)
+
+
+*Geniş coğrafi bölgelerde LAN'ları birbirine bağlar.
+*Genellikle bir veya daha fazla servis  sağlayıcı tarafından yönetilir.
+*Genellikle LAN'lar arasında daha düşük hız bağlantıları sağlar.
+
+WAN Teknolojileri:ADSL,Kablo Net,Dial Up
+                  Fiber İnternet (Metro Ethernet),ATM...
+
+*LANları birbirine bağlayan bu WAN'ı belli BTK 'dan izin almış firmalar sayesinde ücretli bir şekilde yapılabilir.
+*Bu firmalara ISP(Internet Service Provider) denir
+*Örnek olarak Türk Telekom,Türkcell,Vodafone diyebiliriz.
+
+
+
+
+
+                                        İnternet,Intranet ve Extranet
+
+
+Internet:Globalde tüm ülke ve topluluklara açık bir ağ internetidir
+
+
+
+Intranet:Bir kurumun bütün ağ topluluğuna denir.
+         Örn:Bankanın merkez ve şubeleri dahil
+*Intranet sunucuları vardır ve bunların amacı sadece o kurumun personelinin hizmet alıp görebileceği bilgileri sunar
+*Bu sunucular internete kapalıdır.
+
+
+
+Extranet:Kuruma hizmet veren firmaların da o kurumun verilerine erişip ürün tedariği vs yapması lazım
+         Bunun için kurumun ve başka bir firmanın ıntranetleri varken iş ortakları ile yaptığı diğer ağa Extranet denir.
+         Örn:Tekerlet lastiği firmasının gerekli plastik metal malzemeleri sağlayan aracı firmalar ile olan ve internete kapalı ağı
+
+
+
+
+***Küme olarak ele alırsak İnternet altında Extranet ve onun da altında Intranet mevcut bulunmaktadır.
+
+*Kablo olarak bağlanarak özel ağların oluşturulması oldukça pahalıdır
+*Buna çözüm olarak da internet içinde sanki internete bağlı değilmiş
+
+
+
+                                 
