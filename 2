@@ -56,7 +56,52 @@ IP Adresleri:
 *Son kullanıcı 192.168.1.0/24 networkünde ise : 
 örnek ıp adresiniz 192.168.1.5
 
-*IP "192.168.1"
+*IP "192.168.1".8 network kısmını belirtir.   192.168.1"8" host kısmını belirtir.
+
+*Switchlerin IP adresi,MAC adresi,Network kartı YOKTUR.Switch bağlı cihazların ve routerin MAC adres tablosunu tutar
+Yani routerlerin IP adresi,MAC adresi ve Network kartır VARDIR.(Routerler networkleri birbirine bağlar.
+
+NOT: MAC adresleri sadece aynı networkte iletim için kullanılır
+     IP adresleri farklı networkte iletim için kullanılır
+
+***Routerler networkleri birbirine bağladığı için 2 adet MAC adresi ve 2 adet IP ye sahiptir
+*Routerler birbirine bağladığı networkleri tabloda tutar ve bu tabloya "Routing Tablosu" denir.
+
+**Default Gateway:Routerin IP adresidir
+
+
+
+
+
+                             Ağ Protokol Gereksinimleri
+
+Ortak bilgisayar protokolleri uyumlu olmalı ve aşağıdaki gereksinimleri içermelidir:
+*Mesaj kodlama
+*Mesaj biçimlendirme ve kapsülleme
+*Mesaj boyutu
+*Mesaj zamanlaması
+*Mesaj teslim seçenekleri
+
+
+
+**Mesaj Kodlaması(Encoding):
+
+*Kodlama,bilgiyi aktarım için kabul edilebilri başka bir biçime dönüştürme işlemidir
+*Kod çözme,bilgiyi yorumlama için bu işlemi tersine çevirir
+
+Hostlar arasındaki kodlama,ortama uygun bir formatta olmalıdır.
+1-)Ağ üzerinden gönderilen mesajlar bitlere dönüştürülür
+2-)Bitler bir ışık,ses veya elektriksel darbe modeline kodlanır
+3-)Hedef ana bilgisayar ,mesajı yorumlamak için sinyallerin kodunu çözmelidir.
+
+
+
+
+**Mesajı Biçimlendirme ve Kapsülleme
+
+*Bir mesaj gönderildiğinde,belirli bir format veya yapı kullanması gerekir
+*Mesaj formatları,mesajın türüne ve mesajı iletmek için kullanılan kanala bağlıdır
+
 
 
 
