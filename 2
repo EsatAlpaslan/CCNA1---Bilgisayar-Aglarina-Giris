@@ -105,6 +105,15 @@ Hostlar arasındaki kodlama,ortama uygun bir formatta olmalıdır.
 
 
 
+**Mesaj Boyutu
+
+-Eğer 500mb bir datayı gönderirken 15k işlem sürüyorsa ve oradaki 1 bitlik veri bozulursa tüm data kullanım dışı olur ve yeniden göndermek gerekir
+Bu sorunu önlemek için küçük parçalara bölerek ve her parçanın uçlarına MAC adresi Ip adresi kuyruk bilgileri ilave edilerek gönderiöm sağlanır
+Bu sayede datadaki herhangi bir bozulmada bozulan küçük parça yerine yenisini ekleyerek tüm datayı kurtarmış ve aktarabilmiş oluruz
+*Bu işlemde kısaca hostlar arasındaki mesaj iletiminde veriyi küçük parçalara bölüyoruz
+
+
+
 
 
 
