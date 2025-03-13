@@ -16,6 +16,11 @@ OSI referans modeli 7 aşamalı bir şekilde gerçekleşir;
 
 
 
+*Sunucuya IP adresimiz ile paketi yolladıktan sonra geri gelen istek cevap olarak bize dönerken aynı ağ içindeki aynı IPye sahip cihaz varsa çakışma olur.
+*IP çakışması olmaması için IP adresi yanında cihazların MAC adresine de bakılır
+
+*Ip adresleri yazılısal adresler olup IP çakışması gerçekleşmemesi için donanımsal adres olan MAC adresleri kullanılır ve bu MAC adresleri cihaza özgü bir kimlik belirtir
+
 
 
 
@@ -24,10 +29,10 @@ NIC (Network Interface Card – Ağ Arayüz Kartı), her bir ağ cihazına benze
 *Kablosuz paket iletiminde ise wireless network kartı kullanılır.
 
 NIC ve MAC Adresi İlişkisi:
-NIC kartı, bilgisayarların veya diğer ağ cihazlarının internete veya yerel ağa bağlanmasını sağlar.
-Her NIC kartının üretim aşamasında donanıma gömülü bir MAC adresi vardır.
-MAC adresi, 48 bitlik (6 byte) bir adres olup 16'lık (hexadecimal) tabanda gösterilir (örn: 00:1A:2B:3C:4D:5E).
-MAC adresinin ilk 3 byte’ı üretici firmasına ayrılmıştır, kalan 3 byte ise o üreticiye özel cihaz kimliğidir.
+*NIC kartı, bilgisayarların veya diğer ağ cihazlarının internete veya yerel ağa bağlanmasını sağlar.
+*Her NIC kartının üretim aşamasında donanıma gömülü bir MAC adresi vardır.
+*MAC adresi, 48 bitlik (6 byte) bir adres olup 16'lık (hexadecimal) tabanda gösterilir (örn: 00:1A:2B:3C:4D:5E).
+*MAC adresinin ilk 3 byte’ı üretici firmasına ayrılmıştır, kalan 3 byte ise o üreticiye özel cihaz kimliğidir.
 
 
 
@@ -38,6 +43,20 @@ NIC Kartı Olmadan MAC Adresi Olur mu?
 
 *Eğer cihazın hem kablolu hem kablosuz bağlantı özelliği mevcutsa 2 tane MAC adresine sahiptir
 *Bunlardan biri ethernet network kartına, bir diğeri ise wireless network kartına aittir
+
+
+
+
+
+IP Adresleri:
+
+*Haberleşme için Network Kartına "TCP/IP Protokol Kümesi" yüklenmelidir.Daha sonra bilgisayara IP adresi verilebilir.32 bit alan kaplar (4 kısımdan oluşur)
+*Mantıksal adreslerdir(Logical Address)
+*Hangi networkte iseniz o networke ait IP kullanırsınız
+*Son kullanıcı 192.168.1.0/24 networkünde ise : 
+örnek ıp adresiniz 192.168.1.5
+
+*IP "192.168.1"
 
 
 
